@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="com.xdja.nicecircleprogressbar.MainActivity"
+        >
+
+    <com.xdja.progressbarlibrary.NiceProgressBar
+            android:id="@+id/progressbar1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            />
+    <com.xdja.progressbarlibrary.NiceProgressBar
+            android:id="@+id/progressbar2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            />
+    <com.xdja.progressbarlibrary.NiceProgressBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/progressbar3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            />
+</LinearLayout>
