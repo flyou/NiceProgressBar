@@ -35,17 +35,17 @@ public class MainActivity extends AppCompatActivity {
         //or
         progressbar3.setTextMax(100)
         .showWithPercent(true)
-//                .setProgressBarListener(new CircleProgressBar.ProgressBarListener() {
-//                    @Override
-//                    public void onProgressBarComplete() {
-//                        // TODO: what you want
-//                    }
-//
-//                    @Override
-//                    public void onProgressBarStart() {
-//                        // TODO: what you want
-//                    }
-//                })
+                .setProgressBarListener(new NiceProgressBar.ProgressBarListener() {
+                    @Override
+                    public void onProgressBarComplete() {
+                        // TODO: do what you want
+                    }
+
+                    @Override
+                    public void onProgressBarStart() {
+                        // TODO: do what you want
+                    }
+                })
         .show();
 
     }
