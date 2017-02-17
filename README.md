@@ -66,4 +66,4 @@ add in you xml
 
 **License**
 
-Tinker is under the Apache2.0 license. See the [LICENSE](https://github.com/flyou/NiceProgressBar/blob/master/LICENSE) file for details.
+NiceProgressBar is under the Apache2.0 license. See the [LICENSE](https://github.com/flyou/NiceProgressBar/blob/master/LICENSE) file for details.
