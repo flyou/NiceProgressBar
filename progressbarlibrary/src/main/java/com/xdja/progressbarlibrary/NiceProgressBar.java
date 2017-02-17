@@ -97,12 +97,12 @@ public class NiceProgressBar extends View {
 
     public NiceProgressBar(Context context) {
         this(context, null);
-        init();
+
     }
 
     public NiceProgressBar(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
-        init();
+
     }
 
     public NiceProgressBar(Context context, AttributeSet attrs, int defStyle) {
